@@ -3,7 +3,7 @@
  * have been part of the standard library.
  * Boost Exception makes it possible to attach data to exceptions after they have been thrown.
  *
- * Boost.System is a library that, in essence, defines four claases to identify errors. All four classes 
+ * Boost.System is a library that, in essence, defines four classes to identify errors. All four classes 
  * were added to the standard libray with C++11. If your development enviornment supports C++11, you don't
  * need to use Boost.System, you might encounter Boost.System through those other libraries.
  *
@@ -56,7 +56,7 @@ int main()
  * In addition, to value(), boost::system::error_code provides the member function category(), which returns
  * an object of type boost::system::error_category.
  *
- * Errror codes of type boost::system::error_code belong to a category that can be retrieved with with
+ * Error codes of type boost::system::error_code belong to a category that can be retrieved with
  * the member function category(). Errors created with boost::system::errc::make_error_code() 
  * automatically belong to the generic category. This is the category errors belong to if they aren't 
  * assigned to another category explicitly.

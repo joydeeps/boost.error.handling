@@ -23,7 +23,7 @@ int main()
 /*
  * boost::system::error_condition is used just like boost::system::error_code.
  * That's why it is possible as shown in the above example, to call the 
- * member functiosn value() and category() for an object of type 
+ * member function value() and category() for an object of type 
  * boost::system::error_condition.
  * 
  * while the class boost::system::error_code is used for platform-dependent

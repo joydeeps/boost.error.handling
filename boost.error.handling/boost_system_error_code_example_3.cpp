@@ -32,8 +32,8 @@ int main()
  * A new error category is defined by creating a class derived from 
  * boost::system::error_category. This requires you to define various member
  * functions. At a minimum, the member functions name() and message() must be
- * supplied because they are dfined as pure virtual member functions in 
- * boost::system::error_category. For addtional member functions, the default
+ * supplied because they are defined as pure virtual member functions in 
+ * boost::system::error_category. For additional member functions, the default
  * behaviour can be overriden if required.
  * 
  * While name() returns the name of the error category, message() is used to
@@ -44,7 +44,7 @@ int main()
  * An object of the type of the newly created error category can be used to 
  * initialize an error code. The above example defines the error code "ec" 
  * using the new category "application_category". Therefore, the error code 
- * 129 is no longer a generic error; instead, it's meaning is defined the 
+ * 129 is no longer a generic error; instead, it's meaning is defined by the 
  * developer of the new category.
  * 
  * boost::system::error_code provides a member function called

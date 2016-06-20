@@ -30,7 +30,7 @@ int main()
  * In the above example, the free-standing function fail() has been changed 
  * to throw() an exception of type boost::system::system_error in case of an 
  * error. This exception can transport an error code of type 
- * boost::system:;error_code. The exception is caught in main(), which writes
+ * boost::system::error_code. The exception is caught in main(), which writes
  * the error code and error category to the standard error.
  * 
  */
